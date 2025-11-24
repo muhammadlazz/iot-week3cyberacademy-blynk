@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Muhammad Fadli 2024250015",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 19.2, "left": 52.84, "attrs": {} },
+    {
+      "type": "wokwi-slide-potentiometer",
+      "id": "pot2",
+      "top": -81.4,
+      "left": 267.8,
+      "attrs": { "travelLength": "30" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "pot2:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "pot2:VCC", "esp:3V3", "red", [ "h0" ] ],
+    [ "pot2:SIG", "esp:34", "green", [ "h-220.8", "v104.8" ] ]
+  ],
+  "dependencies": {}
+}
