@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6_IgB46ri"
-#define BLYNK_TEMPLATE_NAME "Simulasi Blynk"
-#define BLYNK_AUTH_TOKEN "QRJgO8GqBX3IKKbS3fF9kyCOErLYI993"
+#define BLYNK_TEMPLATE_ID "dari blynk"
+#define BLYNK_TEMPLATE_NAME "samajuga"
+#define BLYNK_AUTH_TOKEN "samaa"
 
 // Aktifkan Serial Monitor untuk debugging
 #define BLYNK_PRINT Serial 
